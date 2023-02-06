@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM python:3.10.8
+FROM python:3.10.8@sha256:0e3142c4c50c73e89a079b0ca0ccea5bdd87bb2861712a9dc2b54f89044d32df
 
 # Install the docker CLI.
 ENV DOCKER_VERSION=20.10.19
