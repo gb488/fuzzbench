@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM gcr.io/fuzzbench/base-image
+FROM gcr.io/fuzzbench/base-image:latest@sha256:0f878820d6ae39d49aa939136121307854fbb2a88db9ae72dec8051badc93e16
 
 ENV WORK /work
 ENV SRC $WORK/src
