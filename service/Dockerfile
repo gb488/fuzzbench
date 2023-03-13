@@ -14,7 +14,7 @@
 #
 ################################################################################
 
-FROM gcr.io/cloud-builders/gcloud
+FROM gcr.io/cloud-builders/gcloud:latest@sha256:15f86aac8213511a38065c0c0cfaa2abfc9c0acc8263a8faa6f883627e1afd3f
 
 RUN apt-get update && apt-get install python3-pip -y
 
